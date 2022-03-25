@@ -1,0 +1,302 @@
+.contenedordemainpricipal {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.contenedordemainpricipal img {
+  width: 450px;
+  height: 550px;
+}
+/*PARTE PRICIPAL DEL MAIN */
+.contienepartepricipaldelmain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+.contenedordemainpricipal .texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  width: 450px;
+}
+.texto h1 {
+  margin-top: -80px;
+  font-size: 38px;
+  color: rgb(21, 21, 145);
+}
+.texto .h1dos {
+  margin-top: 1px;
+  padding-bottom: 80px;
+  color: rgb(72, 72, 209);
+}
+.texto h3 {
+  color: rgb(21, 21, 145);
+}
+
+/*VENDE TUS COSAS*/
+.vendetuscosascontenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 200px;
+  width: 100%;
+}
+.vendetuscosascontenedor h1 {
+  padding-bottom: 90px;
+  color:#252792;
+}
+.contenido {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.contenido1 i {
+  font-size: 40px;
+  color: #2f80ed;
+ 
+}
+.contenido2 i {
+  font-size: 40px;
+  color: #da6446;
+}
+.contenido3 i {
+  font-size: 40px;
+  color: #116adf;
+}
+.contenido4 i {
+  font-size: 40px;
+  color: #f83b3b;
+}
+
+.contenido2 {
+  width: 220px;
+}
+.contenido1 {
+  width: 220px;
+}
+.contenido3 {
+  width: 220px;
+}
+.contenido4 {
+  width: 220px;
+}
+
+.contenido1 h4 {
+  padding-bottom: 20px;
+}
+.contenido2 h4 {
+  padding-bottom: 20px;
+}
+.contenido3 h4 {
+  padding-bottom: 20px;
+}
+.contenido4 h4 {
+  padding-bottom: 20px;
+}
+
+.contenido1 p {
+  color: rgb(121, 121, 121) ;
+  font-family: "Lato", sans-serif;
+}
+.contenido2 p {
+  color: rgb(124, 124, 124);
+  font-family: "Lato", sans-serif;
+}
+.contenido3 p {
+  color: rgb(121, 121, 121);
+  font-family: "Lato", sans-serif;
+}
+.contenido4 p {
+  color: rgb(121, 121, 121);
+  font-family: "Lato", sans-serif;
+}
+
+/*EMPRESAS QUE APOYAN CSS*/
+.empresasqueapoyan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+   margin-top: -110px;
+  
+}
+.empresas {
+  
+  border-bottom: 1px solid rgb(131, 131, 131);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 60%;
+  font-size: 35px;
+  
+}
+
+.empresas img {
+  cursor: pointer;
+}
+
+/*VIDEO DE QUE ES BTC*/
+.video {
+  margin-top: 100px;
+  background-color: #3131bd;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  transition: all 0.3s ease;
+ 
+}
+
+.video h1 {
+  padding-bottom: 40px;
+  
+  letter-spacing: 2px;
+
+  color: rgb(255, 255, 255);
+}
+.video h3 {
+  margin-top: -35px;
+  font-weight: 300;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 19px;
+}
+
+/*TRAYECTORIA*/
+.tiempodetrayectoria{
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #edf0f8;
+  margin-bottom: 50px;
+ 
+}
+.detallestrayectoria{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.detalles1trayecoria{
+color: #252792;
+}
+.detalles2trayecoria{
+  color: #252792;
+}
+.detalles3trayecoria{
+  color: #252792;
+} 
+
+
+/*NECESITAS AYUDA*/
+.necesitasayuda{
+  width: 100%;
+
+  display:  flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  padding-bottom: 90px;
+  padding-top: 40px;
+}
+.detallesayuda{
+  width: 100%;
+  display:  flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+.envianosunmail{
+  display:  flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.envianosunmail h1{
+  padding-bottom: 40px;
+  color:#252792;
+  font-size: 39px;
+}
+.envianosunmail button{
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2f80ed;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.btnemail:hover{
+  background-color: #286dc7;
+}
+#email{
+  padding-right: 16px;
+  font-size: 24px;
+}
+
+
+/*FLECHA PARA SUBIR*/
+.divflecha {
+  float: right;
+  background-color: transparent;
+  color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 89%;
+  left: 96.5%;
+  cursor: pointer;
+}
+
+.imgflecha {
+  position: relative;
+}
+.imgflceha2 {
+  margin-top: 7px;
+}
+.adelaflecha{
+
+  font-size: 20px;
+}
+
